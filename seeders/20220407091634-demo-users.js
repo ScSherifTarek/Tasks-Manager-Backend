@@ -30,3 +30,5 @@ module.exports = {
     return queryInterface.bulkDelete('Users', null, {});
   }
 };
+
+// npx sequelize-cli model:generate --name Task --attributes title:string,description:text
